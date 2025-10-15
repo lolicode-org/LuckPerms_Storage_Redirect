@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.lolicode.luckperms_storage_redirect.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LPFabricBootstrapMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,1 @@
+Redirects luckperm's data storage to config/luckperms/data instead of the default location (mods/luckperms), for better organization.

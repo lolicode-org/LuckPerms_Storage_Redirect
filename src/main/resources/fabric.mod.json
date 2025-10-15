@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "luckperms_storage_redirect",
+  "version": "${version}",
+
+  "name": "LuckPerms Storage Redirect",
+  "description": "Redirect LuckPerm's database storage to standard config directory",
+  "authors": [],
+  "contact": {},
+
+  "license": "The Unlicense",
+  "icon": "assets/luckperms_storage_redirect/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.lolicode.luckperms_storage_redirect.LuckpermsStorageRedirect"
+    ]
+  },
+
+  "mixins": [
+    "luckperms_storage_redirect.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "luckperms": "*"
+  }
+}
