@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.nio.file.Path;
 
-@Mixin(value = LPFabricBootstrap.class, remap = false)
+@Mixin(value = LPFabricBootstrap.class)
 public abstract class LPFabricBootstrapMixin {
     @Shadow
     public abstract Path getConfigDirectory();
